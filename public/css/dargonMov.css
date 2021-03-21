@@ -1,0 +1,35 @@
+.box1{
+    width: 530px;
+    height: 667px;
+    background-image: url('/public/img/imgDrag2.png');
+    position: absolute;
+    bottom: -100%;
+    left: 30%;
+    animation: anim 2s forwards, anim2 3s forwards 3s;
+}
+.box1:after{
+    content: '';
+    position: absolute;
+    width: 530px;
+    height: 667px;
+    background-image: url('/public/img/imgDrag.png');
+    left: 0px;
+    z-index: -1;
+}
+@keyframes anim{
+    from{
+        bottom: -100%;
+    }
+    to{
+        bottom: 0%;
+    }
+}
+@keyframes anim2{
+    from{
+        left:30%;
+        width: 530px;
+    }to{
+        width: 0px;
+        left: 50%;
+    }
+}

@@ -1,0 +1,98 @@
+@import 'config';
+
+@function size($value){
+    @return $value * $unit;
+}
+
+@mixin reset-pm{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    @include reset-pm();
+}
+
+body{
+    background-color: $primary-color;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-color{
+    background-color: $primary-color;
+}
+
+
+div{
+
+    color: $color-white;
+
+    h1{
+        font-weight: bolder;
+        font-size: size(6);
+    }
+    
+}
+
+.font-red{
+    color: $terceary-color;
+    font-weight: bolder;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    li{
+        padding: 2px;
+    }
+}
+
+.bg-card{
+    background-color: $secundary-color;
+    border-radius: 0.5%;
+    height: 310px;
+    margin-bottom: 15px;
+
+    p{
+        font-weight: lighter;
+        font-size: size(2);
+    }
+
+    i{
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color:$terceary-color;
+    }
+
+}
+
+h5{
+    font-size: size(4);
+}
+
+h3{
+    font-size: size(6);
+}
+
+.font-white{
+    color: white;
+    text-align: center;
+}
+
+hr{
+    height: 3px;
+    width: 10%;
+    background-color: $terceary-color;
+    margin-top: 30px;
+    margin-left: 45%;
+}
+
+footer{
+    background-color: $terceary-color;
+    padding: 5px;
+    
+}
+
+.text-big{
+    font-size: size(2.5);
+}
