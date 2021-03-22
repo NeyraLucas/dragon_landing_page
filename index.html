@@ -14,30 +14,52 @@
 </head>
 <body>
 
-    <a href="https://wa.me/525520862830/" class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
+    <a href="https://wa.me/525583581511/" class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
 
     <header>
-        <nav class="navbar navbar-light nav-color">
-            <span class="navbar-brand mb-0 h1 text-white">DragonStreets</span>
+        <nav class="navbar navbar-light nav-color navbar-expand-lg  fixed-top"">
+            <a href="#"><span class="navbar-brand mb-0 h1 text-white">DragonStreets</span></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Act">Actividades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Horario">Horarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Costo">Costos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+            </div>
+
         </nav>
     </header>
 
 
     <div class="container text-center py-5">
         <div class="row">
-            <div class="col col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4 ">
                 <h1 class="font-red">¿Quienes somos?</h1>
                 <p>Dragon Streets, es una organización juvenil, con el fin de enseñar nuevas habilidades a niños y jovenes a través de actividades fisicas y sociales divertidas, en las cuales realizando dichas actividades mientras se divierten.</p>
             </div>
-            <div class="col col-md-6 col-lg-6 offset-lg-1">
+            <div class="col-12 col-md-6 col-lg-6 offset-lg-1">
                 <img src="public/img/svg/Undraw_goal_0v5v.svg" alt="" class="img-fluid">
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <section class="">
-            <h3 class="font-white">
+    <div class="color-section">
+        <section class="container">
+            <h3 class="font-white py-5">
                 Realizamos tres tipos de actividades, físicas, sociales y dinámicas.
             </h3>
             <div>
@@ -78,9 +100,9 @@
         </section>
     </div>
     
-    <div class="container">
-        <section class="">
-            <h3 class="font-white">
+    <div class="">
+        <section class="container">
+            <h3 class="font-white py-5" id="Act">
                 Las actividades
             </h3>
             <div class="row py-5">
@@ -135,8 +157,8 @@
         </section>
     </div>
 
-    <div class="container py-3">
-        <section class="">
+    <div class="color-section py-3">
+        <section class="container">
             <h3 class="font-white">EXTRAS</h3>
             <div class="row">
                 <p class="col col-md-6 col-lg-4 font-weight-bold py-5 text-big">Las actividades extras complementaran la experiencia de los integrantes de la tropa para despejar un poco su mente de sus tareas diarias que tienen como la escuela, obligaciones de casa, incluso de la misma tropa.</p>
@@ -173,7 +195,7 @@
         <section>
             <div class="row">
                 <div class="col-12 col-md-7 col-lg-4 col-sm-6 font-weight-bold py-5 text-big text-center">
-                    <h3>Horarios</h3>
+                    <h3 id="Horario">Horarios</h3>
                     <h2>
                         Lunes 4:00 a 6:00 PM</br>
                         Miércoles 4:00 a 6:00 PM</br>
@@ -193,7 +215,7 @@
                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-sm-4 offset-lg-1 text-center py-5">
-                    <h3>Costos</h3>
+                    <h3 id="Costo">Costos</h3>
                     <h2>
                         Pago semanal: $150 MXN</br>  
                         Pago mensual: $500 MXN
@@ -203,9 +225,42 @@
         </section>
     </div>
 
-    <footer>
-        footer
+    <div class="color-section py-5">
+        <section class="container">
+            <h2 class="text-center">
+                Siguenos en nuestras redes sociales
+            </h2>
+            <div class="">
+                <div class="redes">
+                    <a href="https://www.facebook.com/Dragons-Streets-OFC-103201641832949/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/dragons_streets_ofc/?hl=es-la" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                   <a href="">
+                    <i class="fab fa-youtube">
+                    </i>
+                   </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-center font-white">
+        Copyright
     </footer>
+
+    <script src="js/jquery3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- Librerias de animacion -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
 </body>
 </html>

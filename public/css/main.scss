@@ -96,3 +96,32 @@ footer{
 .text-big{
     font-size: size(2.5);
 }
+
+.color-section{
+    background-color: #292929;
+}
+
+a{
+    color: white !important;
+}
+
+.redes{
+    text-align: center;
+    font-size: size(6);
+    padding: 5px;
+    margin: 15px;
+
+    a{
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    i:hover{
+        color: $terceary-color;
+    }
+
+}
+
+a:hover{
+    color: $terceary-color !important;
+}

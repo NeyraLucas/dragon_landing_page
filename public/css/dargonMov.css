@@ -33,3 +33,10 @@
         left: 50%;
     }
 }
+
+.drag{
+    width: 25%;
+    max-width: 100px;
+    height: auto;
+    
+}
